@@ -1,0 +1,6 @@
+{
+  "name": "Studio Vauquelin — Architecture & Interior Design",
+  "description": "Boutique interior design and architectural studio crafting timeless, tactile, calm luxury spaces for private residences, luxury villas, and boutique hospitality.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
