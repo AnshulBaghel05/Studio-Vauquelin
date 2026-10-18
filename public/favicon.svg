@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="brassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C5A26B" />
+      <stop offset="50%" stop-color="#B08D57" />
+      <stop offset="100%" stop-color="#8E6F3E" />
+    </linearGradient>
+  </defs>
+
+  <!-- Architectural Background: Deep Charcoal with subtle warm rim -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#1E1B18" stroke="#B08D57" stroke-width="1.2" stroke-opacity="0.4" />
+
+  <!-- Classical Architectural Arch Embrasures (Quiet Luxury Reference) -->
+  <path d="M 16 46 V 26 A 16 16 0 0 1 48 26 V 46" fill="none" stroke="#B08D57" stroke-width="0.8" stroke-opacity="0.35" />
+
+  <!-- Monogram SV in Roman Architectural Serif Proportions -->
+  <!-- Serif V -->
+  <g fill="url(#brassGrad)">
+    <!-- Top Left Serif Bracket -->
+    <rect x="18" y="21" width="8" height="1.8" rx="0.5" />
+    <!-- Top Right Serif Bracket -->
+    <rect x="38" y="21" width="8" height="1.8" rx="0.5" />
+    
+    <!-- Left Main Diagonal (Thick Architectural Column) -->
+    <polygon points="21,22.8 25,22.8 33.5,43 29.5,43" />
+    
+    <!-- Right Secondary Diagonal (Fine Hairline Column) -->
+    <polygon points="31.5,43 33.5,43 43,22.8 41,22.8" />
+
+    <!-- Bottom Vertex Join Anchor -->
+    <circle cx="32" cy="42.5" r="1.5" />
+  </g>
+
+  <!-- Architectural Center Point / Horizon Marker -->
+  <circle cx="32" cy="14" r="1.2" fill="#B08D57" />
+</svg>
